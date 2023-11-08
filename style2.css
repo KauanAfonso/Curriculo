@@ -200,6 +200,11 @@ main{
     
 }
 
+.card{
+    margin: 0 auto;
+
+}
+
 .section1 .img-thumbnail{
     width: 100px;
     height: 100px;
@@ -288,4 +293,26 @@ footer ul{
 }
 
 
+@media screen and (max-width: 485px) {
+
+    .fotoHeader{
+        width: 300px !important;
+    }
+
+    .img-thumbnail{
+        width: 300px;
+        
+    }
+    
+    .card{
+        width: 22rem !important;
+        
+    }
+
+    form{
+        width: 80vw;
+    }
+
+
+}
 
